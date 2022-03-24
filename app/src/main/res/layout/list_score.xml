@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/list_score_row"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="1dp"
+    >
+    <TextView
+        android:id="@+id/list_score_no"
+        style="@style/ListScoreItem"
+        android:textColor="@color/gray"
+        />
+    <TextView
+        android:id="@+id/list_score_1"
+        style="@style/ListScoreItem"
+        />
+    <TextView
+        android:id="@+id/list_score_2"
+        style="@style/ListScoreItem"
+        />
+    <TextView
+        android:id="@+id/list_score_3"
+        style="@style/ListScoreItem"
+        />
+    <TextView
+        android:id="@+id/list_score_4"
+        style="@style/ListScoreItem"
+        />
+    <TextView
+        android:id="@+id/list_score_5"
+        style="@style/ListScoreItem"
+        />
+    <TextView
+        android:id="@+id/list_score_6"
+        style="@style/ListScoreItem"
+        />
+    <TextView
+        android:id="@+id/list_score_sub_total"
+        style="@style/ListScoreItem"
+        />
+</LinearLayout>
